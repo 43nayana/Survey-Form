@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+<head>
+  <link rel="stylesheet" href="styles.css">
+    <title>
+    SURVEY FORM
+    </title>
+</head>
+<body>
+  <h1 id="title">SURVEY FORM</h1>
+  <p id="description">Thank you for taking the time to help us improve our platform.</p>
+  <form id="survey-form">
+  <div class="#survey-form">
+       <label id="name-label">Please enter your full name :</label>
+       </br>
+       <input id="name" type="text" placeholder="jeff bezos" required>
+       <br>
+       <label id="email-label">Please enter your email/gmail :</label>
+       <input type="email" id="email" placeholder="epep@gmail.com" required>
+       </br>
+       <br>
+      <label id="number-label">Please enter your age :</label>
+      <input id="number" type="number" min="16" max="90" placeholder="16-90">
+      </div>
+      </br>
+      <div class="subjects">
+   <p>Pick Your Favorite branch of science :</p>
+   <select id="dropdown" name="favorite">
+     <option value=""> Please Select One</option>
+     <option value="1"> Natural Sciences</option>
+     <option value="2"> Social Sciences</option>
+     <option value="3"> Formal Sciences</option>
+     </select>
+     </div>
+     <div class="radio-button">
+       <p>Tick your field of study</p>
+        <input type="radio" id="psychology" value="psychology" name="study-field">
+       <label for="psychology" class="radio-label"> Psychology</label>
+<input type="radio" id="Engineering" value="Engineering" name="study-field">
+       <label for="Engineering" class="radio-label">Engineering</label>
+        <input type="radio" id="Astrophysics" value="Astrophysics" name="study-field">
+       <label for="Astrophysics" class="radio-label">Astrophysics</label>
+       </div>
+       <br>
+      <label>What are your hobbies?
+      <div class="checkie">
+        <input type="checkbox"name="reading"value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox"name="playing video games"value="playing video games">
+         <label for="playing video games">Playing video games</label>
+         <input type="checkbox"name="singing"value="singing">
+         <label for="singing">Singing</label>
+         <input type="checkbox"name="other"value="other"><label for="other">Other</label>
+         </div>
+         </br>
+         <br>
+           <label>Feedback</label>
+            <div class="feedback">
+           <textarea id="comments"name="comments"placeholder="Enter your comments"></textarea>
+           </div>
+           <div class="ending">
+             <p>Thank you for filling my survey , please submit using the button below:</p>
+             <button type="submit"id="submit">Submit</button>
+             </div>
+             </br>
+             </form>
+
+
+</body>
